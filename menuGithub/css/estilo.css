@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    list-style: none;
+    /* tirar a bolinha antes da palavra */
+    align-items: center; 
+    /* faz com que o elemetno se posicione no centro, pra que funcione precisa de um display-flex */
+    display: flex;
+    /* faz com que ele fique como elemento de linha */
+    gap: 1.5em;
+    /* separa os conteúdos, uma distância */
+    position: fixed;
+    height: 2em;
+    /* background: #4aa0a0; */
+    /* DEGRADE->  */
+    background: linear-gradient(to left, #50e9e1, #2e94b3, #185b7a);
+    width: 100%; /* ou 100vw: view width */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .8);
+    padding-left: 1EM;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: aliceblue;
+}
+section{
+    min-height: 100vh;
+    padding-top: 2.5em;
+    padding-left: 1.5em;
+    color: white;
+}
+#ini {
+    background: url(../img/imagem11.jpg);
+    background-size: cover;
+}
+#ser {
+    background: url(../img/imagem22.jpg);
+    background-size: cover;
+}
+#con {
+    background: url(../img/imagem33.jpg);
+    background-size: cover;
+}
+#cur {
+    background: url(../img/imagem44.jpg);
+    background-size: cover;
+}
+#sob {
+    background: url(../img/imagem55.jpg);
+    background-size: cover;
+}
